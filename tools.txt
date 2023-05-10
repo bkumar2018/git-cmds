@@ -1,0 +1,8 @@
+Git is popular version control system
+Maven is build tool for java
+Jenkins is popular devops automation tool
+Ansible is easy to learn
+Kubernetes is container orchestration framework
+Argo CD is kubernetes Continuous Deployment tool
+Apple
+Orange
