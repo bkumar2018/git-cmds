@@ -6,3 +6,4 @@ Kubernetes is container orchestration framework
 Argo CD is kubernetes Continuous Deployment tool
 Apple
 Orange
+AWS
