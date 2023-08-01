@@ -18,3 +18,17 @@ git reset –hard <commitId> --> remove all changes.
 
 git pull
 git push origin main
+
+
+////
+git config --list
+vim $HOME/.gitconfig
+git config --edit --global
+git config --global -e
+git config --list --show-scope
+
+You may need to specify where you want to read those configurations, Just add the level option:
+
+--system: System level which applied to every user on the system and all their repositories.
+--global: Global level whose values are specific personally to you, the user.
+--local: Repository level has a specific to that single repository.
