@@ -1,0 +1,34 @@
+git clone https://github.com/bkumar2018/git-cmds.git
+
+git status
+git add .
+git commit -m ‘some message to remeber commit’
+git checkout -b my-feature
+git checkout master
+git branch -d  test1   -- make sure you are not sitting on test1 branch.
+
+git log –oneline – all commits ids
+git reset 2689ab2   -- reset to at that commit.
+git status
+
+//reset work only for local changes
+git reset –mixed <commitId>  ---> This is default
+git reset –soft <commitId> --> Soft reset, here changes are in staging area,simply need to commit again.
+git reset –hard <commitId> --> remove all changes.
+
+git pull
+git push origin main
+
+
+////
+git config --list
+vim $HOME/.gitconfig
+git config --edit --global
+git config --global -e
+git config --list --show-scope
+
+You may need to specify where you want to read those configurations, Just add the level option:
+
+--system: System level which applied to every user on the system and all their repositories.
+--global: Global level whose values are specific personally to you, the user.
+--local: Repository level has a specific to that single repository.
