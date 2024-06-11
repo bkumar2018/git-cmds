@@ -1,0 +1,37 @@
+
+Git Stash
+
+If you want to switch branches, and you had made some changes in current project, but you do not want to make a commit of half-done work, then git stash allows you to do so.
+
+The git stash command enables you to switch branches without committing the current branch.
+
+stash means 'store something safely in a hidden place'
+Here, git stash - means Git temporarily saves your data safely without committing for further use.
+
+
+1. git stash
+2. git pull-rebase
+3. git stash pop
+
+
+Many options of Git stash:
+
+Git stash
+Git stash save "Edited readme.txt and sample.py file"
+Git stash list
+Git stash apply  or <stash id>
+Git stash show
+Git stash changes
+Git stash pop
+Git stash drop
+Git stash clear
+Git stash branch
+
+git status
+
+
+'git stash pop' And 'git stash apply' both are same main difference is stash pop command that deletes the stash from the stack after it is applied.
+
+
+git stash branch <branch name>  
+This above command create a new branch and transfer stashed work on that.
