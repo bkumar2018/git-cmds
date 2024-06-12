@@ -1,5 +1,5 @@
 # git-cmds
-This repo is for all the commands from git 
+This repo is for all the commonly used Git commands
 
 
 echo "# git-cmds" >> README.md
@@ -11,7 +11,7 @@ git remote add origin https://github.com/bkumar2018/git-cmds.git
 git push -u origin main
 
 
-Branching & Merging
+# Branching & Merging
 Command	Description
 git branch	List branches (the asterisk denotes the current branch)
 git branch -a	List all branches (local and remote)
