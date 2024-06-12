@@ -1,6 +1,15 @@
 # git-cmds
 This repo is for all the commonly used Git commands
 
+<!-- BADGES/ -->
+
+
+
+<!-- /BADGES -->
+
+```
+sudo apt-get update
+```
 
 echo "# git-cmds" >> README.md
 git init
