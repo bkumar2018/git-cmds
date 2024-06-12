@@ -2,7 +2,7 @@
 
 alias g='git '
 alias gi='git init '
-alias gs='git status -sb '
+alias gs='git status -sb '   -> ## main...origin/main
 alias ga='git add '
 alias gc='git commit -m '
 alias gac='ga -A && gc '
