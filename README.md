@@ -1,4 +1,4 @@
-# git-cmds
+# Git Commands
 This repo is for all the commonly used Git commands
 
 <!-- BADGES/ -->
@@ -20,10 +20,10 @@ git remote add origin https://github.com/bkumar2018/git-cmds.git
 git push -u origin main
 
 
-# Branching & Merging
+## Branching & Merging
 Command	Description
-git branch	List branches (the asterisk denotes the current branch)
-git branch -a	List all branches (local and remote)
+```git branch ```	List branches (the asterisk denotes the current branch)
+```git branch -a ```	List all branches (local and remote)
 git branch [branch name]	Create a new branch
 git branch -d [branch name]	Delete a branch
 git push origin --delete [branch name]	Delete a remote branch
