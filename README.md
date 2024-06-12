@@ -1,6 +1,11 @@
 # Git Commands
 This repo is for all the commonly used Git commands
 
+
+My Git aliases, have a look at my .bash_profile, found here:
+
+https://github.com/bkumar2018/git-cmds/blob/main/.bash_profile
+
 <!-- BADGES/ -->
 
 
