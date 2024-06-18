@@ -35,3 +35,10 @@ git status
 
 git stash branch <branch name>  
 This above command create a new branch and transfer stashed work on that.
+
+
+# Store current work with untracked files
+$ git stash -u
+
+# Bring stashed work back to the working directory
+$ git stash pop
