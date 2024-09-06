@@ -29,5 +29,28 @@ git commit -m 'initial draft' .
 
 git status
 
+git push
 
+git log  -> shows details of code with help of commit ID
+git show <commitID>
+
+
+vi auto.html --> add few more lines 
+git restore auto.html  --> For discarding modified code
+
+git clean -n --> verify and remove untrack file
+git clean -f --> remove finally untrack file
+
+To ignore some files from unexpected commit
+vim .gitignore
+*.txt
+*.obj
+*.class
+
+:wq
+
+
+git add .gitignore
+git commit -m "ignore the .txt .obj and .class extension files" .gitignore
+git status
 
