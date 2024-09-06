@@ -1,0 +1,33 @@
+
+
+git --version
+
+git init --> convert normal directory into git repo
+
+
+Verify user details
+git config --list
+
+
+vim auto.html
+:wq
+
+git status
+git add auto.html
+git status
+
+
+git rm --cached auto.html
+
+git restore --staged auto.html
+
+git add .
+
+git status
+
+git commit -m 'initial draft' .
+
+git status
+
+
+
