@@ -1,0 +1,56 @@
+git log 
+git show <commitId>
+git init —> is used to create an empty Git repository, .git folder is created, repo is initialised, 
+
+git add .
+git status
+git commit -m “message”
+git status
+git config 
+git pull
+git push
+git log
+
+
+git branch
+git branch <new branch name>
+
+git checkout <branch-name>
+git branch -d <branch-name> —> deleting branch
+
+
+git stash
+	: Take modified files and saves it on a pile of incomplete changes that can be reapply at any time. To go back to work, you can use stash pop
+Help to switch branches to work on something else without committing to incomplete work.
+
+git stash list
+git stash apply@{0}
+git stash pop
+git stash show
+
+git stash clear
+
+git revert <commit-id> —> 
+
+
+git clone is dependent on git init, its create a copy of an existing repo.
+Internally git clone first calls git init to create a new repo.
+Its create a copy of a target repo
+
+The commands: git add, git status, and git commit are all used in combination to save 
+
+git diff 
+git diff <commit Id1> <commitID2>
+
+
+Tagging is an additional mechanism used to create a snap shot of a Git repo
+used to create semantic version number identifier tags that correspond to software release
+
+git tag —> list down all the tags
+git tag v1.0 -> create tag name v1.0 
+git checkout v1.1
+git tag -d v1.0   —> delete tag v1.0
+
+
+git pull origin master 
+git pull origin main
