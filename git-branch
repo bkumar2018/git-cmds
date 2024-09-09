@@ -1,0 +1,40 @@
+
+git branch —> current working branch
+git branch pune —> create new branch Pune
+git checkout mumbai  —> To switch branch
+
+git branch -d pune —> delete branch pune
+git checkout master —> switch to master branch
+
+git branch       
+  08testbranch
+  branch-v1
+  branch-v2
+* list
+  main
+  test-v1
+  test-v2
+
+to merge Mumbai branch in master
+#git 	checkout	master
+#git	merge	Mumbai
+
+git stash —> add working file to stash (temporary)
+git stash list 
+git stash apply 2
+git stash pop —> last stash file
+git stash clear  —> clear git stash
+
+git reset file1.html —> remove file from staging area (unstage)
+
+git reset - - hard  —> remove file from staging as well as working area at a time 
+
+git tag   —> show existing tags
+
+git log - - online  —> show commit in short 
+
+git rebase  —> allows dev to integrate changes from one branch to another.
+
+Add changes of master branch into pune branch:
+git checkout pune
+git rebase master 
